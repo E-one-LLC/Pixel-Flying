@@ -30,7 +30,7 @@
 
 ## 飞行线路
 
-[全球直接目的地](https://support.google.com/pixelphone/answer/2819573?sjid=140733030294803112-NC#zippy=%2C%E5%8F%AF%E4%BD%BF%E7%94%A8-vpn-%E7%9A%84%E5%9B%BD%E5%AE%B6%E5%9C%B0%E5%8C%BA)
+[可前往目的地](https://support.google.com/pixelphone/answer/2819573?sjid=140733030294803112-NC#zippy=%2C%E5%8F%AF%E4%BD%BF%E7%94%A8-vpn-%E7%9A%84%E5%9B%BD%E5%AE%B6%E5%9C%B0%E5%8C%BA)
 
 ## 扩展玩法
 1、[EveryProxy](https://www.everyproxy.co.uk/)  Wifi网络环境下，将手机网络共享到局域网。
