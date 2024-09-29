@@ -11,44 +11,69 @@
 
 所以才有了以下保姆级的教程。
 
-下面 ！
-开始 ！！
+现在 ！
+
+即刻开始 ！！
+
 手把手教程！！！
 
 [文字版步骤说明](https://linux.do/t/topic/219068)
 
 以v2RayNG作为飞机，自备机场，飞行线路选US为例
 
-1 、修改 APN接入点 代理和端口
+# 1 、修改 APN接入点 代理和端口
 
 **设置**—**网络和互联网**—**SIM 卡**—**中国移动**—**接入点名称**— **+**  修改接入点
+
 （APN 、MCC 、MNC 、APN 类型、APN 协议、APN 漫游协议全部按原有的中国移动 GPRS 填写）
+
 **名称**  填写 自定义
+
 **代理** 填写 **127.0.0.1** 
+
 **端口** 填写 **10809**  端口可以自定义
+
 保存 
-![APN 代理设置|225x500, 100%](upload://tU8RDjETvgTqoPAJFyCSH4YJzSe.jpeg)
 
-2、修改 v2rayNG 仅代理和端口
-v2rayNG设置       左上角 **三** — **设置**
+![APN 代理设置|225x500, 100%](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/1%20APN%20%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE.jpg)
+
+# 2、修改 v2rayNG 仅代理和端口
+
+v2rayNG设置     
+
+左上角 **三** — **设置**
+
 **进阶设置** 
+
 **http代理端口** 填写 **10809** （与APN端口相同）
+
 **模式** 选用 **仅代理**
+
 **路由设置**  **域名策略**  选用 **IPIfNonMatch**
+
 **预定义规则** 选用 **绕过局域网及大陆代理而后代理**
+
 **自定义规则** **代理的网址或 IP** 填写
+
 ***.cloud.cupronickel.goog,**
+
 ***.googleapis.com,**
+
 ***.gstatic.com**
-[grid]
-![2 v2rayNG 仅代理 模式 设置|225x500](upload://yWJCWJHzU53kOnPofPtFeP2DqM3.jpeg)
-![3 v2rayNG 路由设置|225x500](upload://mrl5Tn86pobTe0OMtuVomr8gwo7.jpeg)
-![3 自定义规则|225x500](upload://uL1NtRxYwURSEDPRNGmVchd71SO.png)
-[/grid]
 
-3、机场订阅链接导入  更新订阅 测试配置真连接 节点选择  这种基操 就省略了 
+![v2rayNG 仅代理模式设置](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/2%20v2rayNG%20%E4%BB%85%E4%BB%A3%E7%90%86%20%E6%A8%A1%E5%BC%8F%20%E8%AE%BE%E7%BD%AE.jpg)
 
-4、 打开Google VPN 准备起飞
+![v2rayNG 路由设置|225x500](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/3%20v2rayNG%20%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE.jpg)
+
+
+![自定义规则|225x500](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/3%20%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A7%84%E5%88%99.png)
+
+
+
+
+# 3、机场订阅链接导入  更新订阅 测试配置真连接 节点选择  这种基操 就省略了 
+
+# 4、 打开Google VPN 准备起飞
 **设置**—**网络和互联网**—**VPN**—内置 **Google VPN**
 [grid]
 ![4 Google VPN 打开路径|225x500](upload://8tEn6DTD5DxyvWJRv1z96IVsdAz.jpeg)
@@ -61,7 +86,7 @@ v2rayNG设置       左上角 **三** — **设置**
 ![6 Google 连接成功|225x500](upload://a2YoxXPJmNrMIksjFjad0LKs45l.jpeg)
 [/grid]
 
-5、关闭v2rayNG、恢复APN
+# 5、关闭v2rayNG、恢复APN
 [grid]
 ![7 V2rayNG 停止服务|225x500](upload://f1GikMs20XXY9RSFWnvyD19Jwn5.jpeg)
 ![8 APN 设置选回|225x500](upload://2bNDE9nfRZ7ucm489P6GTP3brdD.jpeg)
@@ -82,18 +107,18 @@ v2rayNG设置       左上角 **三** — **设置**
 下面放一下我的 近期流量使用情况，基本上是全天候在线。
 ![9 近期数据使用情况|225x500](upload://eeBCSYxELSKG3tTOAukys6SGLsn.jpeg)
 
-重要说明：
+# 重要说明：
 飞机线路的选择，一定要在[下列地区](https://support.google.com/pixelphone/answer/2819573?sjid=140733030294803112-NC#zippy=%2C%E5%8F%AF%E4%BD%BF%E7%94%A8-vpn-%E7%9A%84%E5%9B%BD%E5%AE%B6%E5%9C%B0%E5%8C%BA)中，才行。
 （PS：我有个南极的线路，也开启成功了，查询IP是澳大利亚，所以只要您的线路不离谱，开启成功，是没有问题的。）
 
-不重要的说明
+# 不重要的说明
 1、第1、2、3步先后顺序对第4步无影响。
 2、第5步先后顺序无影响。
 3、对于第5步飞机关闭和恢复APN，经使用体验，如果不关闭和恢复APN的话，对某信使用会有影响，比如说有些小程序会拒绝访问，图片加载失败。
 4、端口可自定义，但是最好不要和常用端口冲突。
 
 
-使用拓展
+# 使用拓展
 
 一、 在WIFI环境下，您可以[在Pixel 设备上连接到 Google VPN](https://support.google.com/pixelphone/answer/2819573?sjid=140733030294803112-NC#zippy=)后， 配合[Every Proxy](https://play.google.com/store/apps/details?id=com.gorillasoftware.everyproxy&pcampaignid=web_share)将Google VPN网络共享到局域网（在[Edge](https://www.microsoft.com/zh-cn/edge?form=MA13FJ)、[Chrome](https://www.google.cn/intl/zh-CN/chrome/)上配合[SwitchyOmega](chrome-extension://padekgcemlokbadohgkifijomclgjgif/options.html#!/about)使用）。
 
