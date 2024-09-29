@@ -7,6 +7,10 @@
 
 [起飞思路](https://bbs.yummy.best/t/topic/221/5)
 
+# 起飞
+
+[图文 保姆级教程](https://github.com/E-one-LLC/Google-VPN-For-Pixel/blob/main/APN%E4%BB%A3%E7%90%86%E5%90%AF%E5%8A%A8.md)
+
 ## 推荐飞机
 1、[v2RayNG](https://github.com/2dust/v2rayNG)
 
