@@ -62,50 +62,55 @@ v2rayNG设置
 ***.gstatic.com**
 
 ![v2rayNG 仅代理模式设置](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/2%20v2rayNG%20%E4%BB%85%E4%BB%A3%E7%90%86%20%E6%A8%A1%E5%BC%8F%20%E8%AE%BE%E7%BD%AE.jpg)
-
 ![v2rayNG 路由设置|225x500](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/3%20v2rayNG%20%E8%B7%AF%E7%94%B1%E8%AE%BE%E7%BD%AE.jpg)
-
-
 ![自定义规则|225x500](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/3%20%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A7%84%E5%88%99.png)
 
 
-
-
-# 3、机场订阅链接导入  更新订阅 测试配置真连接 节点选择  这种基操 就省略了 
+# 3、机场订阅链接导入  更新订阅 测试配置真连接 节点选择 这种基操 就省略了 
 
 # 4、 打开Google VPN 准备起飞
 **设置**—**网络和互联网**—**VPN**—内置 **Google VPN**
-[grid]
-![4 Google VPN 打开路径|225x500](upload://8tEn6DTD5DxyvWJRv1z96IVsdAz.jpeg)
-![7ba345b45c68ce6f36a12120135011c|225x500](upload://kkTGNrlt1hZOd2rggHFnYZc2fUH.png)
-![674c223a668d917bb937c4af0293095|225x500](upload://ykKk1sRAY7GF7PF5mokbsjHl3yW.png)
-[/grid]
+
+![Google VPN 打开路径|225x500](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/4%20Google%20VPN%20%E6%89%93%E5%BC%80%E8%B7%AF%E5%BE%84.jpg)
+
+
+![7ba345b45c68ce6f36a12120135011c|225x500](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/4%20Google%20VPN%20%E4%BB%8B%E7%BB%8D.png)
+
+
+![674c223a668d917bb937c4af0293095|225x500](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/4%20Google%20VPN%20%E8%AF%B4%E6%98%8E.png)
+
+
+
+
 **使用VPN**
-[grid]
-![5 Google 连接ing|225x500](upload://5oOMc4KaC7QMYhEtasDtece1upT.jpeg)
-![6 Google 连接成功|225x500](upload://a2YoxXPJmNrMIksjFjad0LKs45l.jpeg)
-[/grid]
+
+![5 Google 连接ing|225x500](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/5%20Google%20%E8%BF%9E%E6%8E%A5ing.jpg)
+
+
+
+![6 Google 连接成功|225x500](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/6%20Google%20%E8%BF%9E%E6%8E%A5%E6%88%90%E5%8A%9F.jpg)
+
 
 # 5、关闭v2rayNG、恢复APN
-[grid]
-![7 V2rayNG 停止服务|225x500](upload://f1GikMs20XXY9RSFWnvyD19Jwn5.jpeg)
-![8 APN 设置选回|225x500](upload://2bNDE9nfRZ7ucm489P6GTP3brdD.jpeg)
-[/grid]
+
+![7 V2rayNG 停止服务|225x500](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/7%20V2rayNG%20%E5%81%9C%E6%AD%A2%E6%9C%8D%E5%8A%A1.jpg)
+![8 APN 设置选回|225x500](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/8%20APN%20%E8%AE%BE%E7%BD%AE%E9%80%89%E5%9B%9E.jpg)
+
 
 至此，只要你不主动关闭Google VPN，不开启其他VPN，手机不重启/关机，不打开飞行模式，Google VPN 就不会断开。
 
 根据近期的使用体验，在Pixel上的Google VPN 比之前的Google One VPN好用一万倍。主要是之前Google One VPN的各种在线验证，网络波动的影响都不见了。
 
 下面 放一下 在Wifi环境下的测试截图 
-[grid]
-![fast 测速|225x500](upload://xvFbdc0cnjHTtjioIaGBbfPx7po.jpeg)
-![科技大 V4测试|225x500](upload://rxDFYjxhmIGDnsLhyfAe0OWEjnW.jpeg)
-![科技大 V6测试|225x500](upload://syKq5UACkTSAJhmgRZhyhXqAKWG.jpeg)
-[/grid]
+
+![fast 测速|225x500](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/fast%20%E6%B5%8B%E9%80%9F.jpg)
+![科技大 V4测试|225x500](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/%E7%A7%91%E6%8A%80%E5%A4%A7%20V4%E6%B5%8B%E8%AF%95.jpg)
+![科技大 V6测试|225x500](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/%E7%A7%91%E6%8A%80%E5%A4%A7%20V6%E6%B5%8B%E8%AF%95.jpg)
+
 
 按照我的使用感受，就是你的网络有多快，Google VPN的速度就有多快。
 下面放一下我的 近期流量使用情况，基本上是全天候在线。
-![9 近期数据使用情况|225x500](upload://eeBCSYxELSKG3tTOAukys6SGLsn.jpeg)
+![9 近期数据使用情况|225x500](https://cdn.jsdelivr.net/gh/E-one-LLC/Image@main/9%20%E8%BF%91%E6%9C%9F%E6%95%B0%E6%8D%AE%E4%BD%BF%E7%94%A8%E6%83%85%E5%86%B5.jpg)
 
 # 重要说明：
 飞机线路的选择，一定要在[下列地区](https://support.google.com/pixelphone/answer/2819573?sjid=140733030294803112-NC#zippy=%2C%E5%8F%AF%E4%BD%BF%E7%94%A8-vpn-%E7%9A%84%E5%9B%BD%E5%AE%B6%E5%9C%B0%E5%8C%BA)中，才行。
@@ -113,8 +118,11 @@ v2rayNG设置
 
 # 不重要的说明
 1、第1、2、3步先后顺序对第4步无影响。
+
 2、第5步先后顺序无影响。
+
 3、对于第5步飞机关闭和恢复APN，经使用体验，如果不关闭和恢复APN的话，对某信使用会有影响，比如说有些小程序会拒绝访问，图片加载失败。
+
 4、端口可自定义，但是最好不要和常用端口冲突。
 
 
