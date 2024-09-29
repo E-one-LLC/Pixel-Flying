@@ -3,13 +3,16 @@
 2、友站 大佬Check [现阶段GoogleOneVpn连接问题与信息汇总](https://bbs.yummy.best/t/topic/467)
 3、友站 大佬Check [大陆可以直连“Google的VPN”？GoogleOneVpn评测和想法](https://bbs.yummy.best/t/topic/81)
 
-上述信息都是基于Google One VPN时期产出的，一些使用要求也是在Google One VPN独有的
+上述内容都是基于Google One VPN时期产出的，一些使用要求也是在Google One VPN独有的。
+
 现在的Google VPN 没有了之前独有的使用要求，在体验上更好。
 
-所以为了各位Pixel7+用户，很好的体验Googl VPN，结合大佬的[思路](https://bbs.yummy.best/t/topic/221/5)才有了以下保姆级的教程。
+为了各位Pixel7+用户，更好的体验Googl VPN，结合大佬的[思路](https://bbs.yummy.best/t/topic/221/5)，
 
-下面 !
-开始 !!
+所以才有了以下保姆级的教程。
+
+下面 ！
+开始 ！！
 手把手教程！！！
 
 [文字版步骤说明](https://linux.do/t/topic/219068)
@@ -37,34 +40,43 @@ v2rayNG设置       左上角 **三** — **设置**
 ***.cloud.cupronickel.goog,**
 ***.googleapis.com,**
 ***.gstatic.com**
+[grid]
 ![2 v2rayNG 仅代理 模式 设置|225x500](upload://yWJCWJHzU53kOnPofPtFeP2DqM3.jpeg)
 ![3 v2rayNG 路由设置|225x500](upload://mrl5Tn86pobTe0OMtuVomr8gwo7.jpeg)
 ![3 自定义规则|225x500](upload://uL1NtRxYwURSEDPRNGmVchd71SO.png)
+[/grid]
 
 3、机场订阅链接导入  更新订阅 测试配置真连接 节点选择  这种基操 就省略了 
 
 4、 打开Google VPN 准备起飞
 **设置**—**网络和互联网**—**VPN**—内置 **Google VPN**
-
+[grid]
 ![4 Google VPN 打开路径|225x500](upload://8tEn6DTD5DxyvWJRv1z96IVsdAz.jpeg)
 ![7ba345b45c68ce6f36a12120135011c|225x500](upload://kkTGNrlt1hZOd2rggHFnYZc2fUH.png)
 ![674c223a668d917bb937c4af0293095|225x500](upload://ykKk1sRAY7GF7PF5mokbsjHl3yW.png)
+[/grid]
 **使用VPN**
+[grid]
 ![5 Google 连接ing|225x500](upload://5oOMc4KaC7QMYhEtasDtece1upT.jpeg)
 ![6 Google 连接成功|225x500](upload://a2YoxXPJmNrMIksjFjad0LKs45l.jpeg)
+[/grid]
 
 5、关闭v2rayNG、恢复APN
-![7 V2rayNG 停止服务|225x500](upload://6LfXUqaB5mR9trPpxlYo8jiNkva.jpeg)
+[grid]
+![7 V2rayNG 停止服务|225x500](upload://f1GikMs20XXY9RSFWnvyD19Jwn5.jpeg)
 ![8 APN 设置选回|225x500](upload://2bNDE9nfRZ7ucm489P6GTP3brdD.jpeg)
+[/grid]
 
 至此，只要你不主动关闭Google VPN，不开启其他VPN，手机不重启/关机，不打开飞行模式，Google VPN 就不会断开。
 
 根据近期的使用体验，在Pixel上的Google VPN 比之前的Google One VPN好用一万倍。主要是之前Google One VPN的各种在线验证，网络波动的影响都不见了。
 
 下面 放一下 在Wifi环境下的测试截图 
+[grid]
 ![fast 测速|225x500](upload://xvFbdc0cnjHTtjioIaGBbfPx7po.jpeg)
 ![科技大 V4测试|225x500](upload://rxDFYjxhmIGDnsLhyfAe0OWEjnW.jpeg)
 ![科技大 V6测试|225x500](upload://syKq5UACkTSAJhmgRZhyhXqAKWG.jpeg)
+[/grid]
 
 按照我的使用感受，就是你的网络有多快，Google VPN的速度就有多快。
 下面放一下我的 近期流量使用情况，基本上是全天候在线。
@@ -88,6 +100,3 @@ v2rayNG设置       左上角 **三** — **设置**
 二、Root的手机使用相关模块达到Pixel 使用Google VPN的效果。（先给自己埋个坑，等11月份使用Pixel 2 XL 测试一下 ）
 
 三、如果不选择使用手机修改APN，也可以在Wifi环境下使用代理，实现前置代理，或者您用更高阶的路由实现前置代理。
-
-
-
