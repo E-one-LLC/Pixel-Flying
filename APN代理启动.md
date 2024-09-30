@@ -130,6 +130,7 @@ v2rayNG设置
 
 一、 在WIFI环境下，您可以[在Pixel 设备上连接到 Google VPN](https://support.google.com/pixelphone/answer/2819573?sjid=140733030294803112-NC#zippy=)后， 配合[Every Proxy](https://play.google.com/store/apps/details?id=com.gorillasoftware.everyproxy&pcampaignid=web_share)将Google VPN网络共享到局域网（在[Edge](https://www.microsoft.com/zh-cn/edge?form=MA13FJ)、[Chrome](https://www.google.cn/intl/zh-CN/chrome/)上配合[SwitchyOmega](chrome-extension://padekgcemlokbadohgkifijomclgjgif/options.html#!/about)使用）。
 
-二、Root的手机使用相关模块达到Pixel 使用Google VPN的效果。（先给自己埋个坑，等11月份使用Pixel 2 XL 测试一下 ）
+二、[Root的手机使用相关模块达到Pixel 使用Google VPN的效果](https://linux.do/t/topic/220413)。
+（先给自己埋个坑，等11月份推出保姆级教程，使用Pixel 2 XL 测试一下）
 
 三、如果不选择使用手机修改APN，也可以在Wifi环境下使用代理，实现前置代理，或者您用更高阶的路由实现前置代理。
