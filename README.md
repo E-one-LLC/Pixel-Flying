@@ -26,7 +26,6 @@
 
 [百宝箱](https://dd1.553252.xyz/#/register?code=PABt8A4t)  付费推荐，性价比极高，飞行线路超多，几乎是全球飞，超级稳定
 
-[五毛机场](https://dd1.553252.xyz/#/register?code=PABt8A4t) 低价使用、飞机型号多，主流飞行线路
 
 ## 飞行线路
 
