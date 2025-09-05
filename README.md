@@ -34,4 +34,4 @@
 ## 扩展玩法
 1、[EveryProxy](https://www.everyproxy.co.uk/)  Wifi网络环境下，将手机网络共享到局域网。
 
-2、[List.txt](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt)  在[Chrome](https://www.google.com/intl/zh-CN/chrome/)/[Microsoft Edge](https://www.microsoft.com/zh-cn/edge/?form=MA13FJ)/[FireFox](https://www.mozilla.org/zh-CN/firefox/)下配合[Proxy SwitchyOmega](https://chromewebstore.google.com/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)适用的规则列表。
+2、[List.txt](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt)  在[Chrome](https://www.google.com/intl/zh-CN/chrome/)/[Microsoft Edge](https://www.microsoft.com/zh-cn/edge/?form=MA13FJ)/[FireFox](https://www.mozilla.org/zh-CN/firefox/)下配合[ZeroOmega](https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped)适用的规则列表。
